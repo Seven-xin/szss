@@ -1,0 +1,278 @@
+body {
+	background: #f8f9fb;
+}
+/* index-top 顶部导航栏 标题 */
+.mui-bar .top .mui-icon{
+	font-size: 36px;
+	padding-top: 5px;
+}
+.top span {
+	font-size: 14px;
+	color: #fff;
+	line-height: 48px;
+}
+.mui-bar.mui-bar-nav{
+	background: #000;
+}
+
+.mui-bar.mui-bar-nav h1,.mui-bar.mui-bar-nav .top a {
+	color: #fff;
+	margin-right: -3px;
+}
+.mui-bar.mui-bar-nav.top a:nth-of-type(2) {
+	transform: rotate(90deg);
+	position: relative;
+	top: -3px;
+}
+.mui-bar-nav {
+	box-shadow: none;
+}
+
+/* 定位 */
+.index-local.mui-bar.mui-bar-nav {
+	margin-top: 44px;
+	background: #7b583d;
+	padding-bottom: 60px;
+}
+
+.index-local a:nth-of-type(1) {
+	line-height: 32px;
+	font-size: 28px;
+	color: #fff;
+	margin-left: 8px !important;
+}
+
+.index-local a:nth-of-type(2) {
+	font-size: 13px;
+	color: #fff;
+	line-height: 62px;
+	margin:  0 8px;
+}
+
+.index-local a:nth-of-type(3) {
+	font-size: 13px;
+	color: #fff;
+	line-height: 44px;
+}
+.headImg img {
+	width: 32px;
+	height: 32px !important;
+	display: block;
+	border-radius: 50%;
+	margin-top: 14px;
+    margin-right: 10px;
+}
+
+/* 轮播 */
+.gall1 {
+	width: 100%;
+	height: 30px;
+	background: #7b583d;
+	margin-top: 104px;
+}
+.gall2 {
+	width: 100%;
+}
+
+.gall2 .mui-slider {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	top: -30px;
+}
+.gall2 .mui-slider .mui-table-view-cell {
+	    padding: 30px 15px;
+}
+
+.gall2 .mui-slider .mui-slider-group .mui-slider-item img {
+	max-width: 50%;
+	height: 100%;
+}
+.gall2 .mui-table-view-cell>a:not(.mui-btn) {
+	margin: -35px -15px; 
+}
+
+.gall2 .mui-media-body p {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 10px;
+}
+
+.gall2 .mui-media-body p:first-child {
+	font-size: 17px;
+	font-weight: bold;
+	color: #000;
+}
+.gall2 .mui-media-body p:nth-child(2) {
+	color: #8c8d8b;
+}
+
+.gall2 .mui-media-body p span{
+	font-size: 17px;
+	font-weight: bold;
+	color: #000;
+	margin-right: 15px;
+}
+
+/* 菜单 index-menu */
+.index-menu {
+	height: 80px;
+	position: relative;
+	top: -10px;
+	background: #fff;
+}
+
+.index-menu .mui-table-view.mui-grid-view.mui-grid-9 {
+	width: 65%;
+	background: #fff;
+	height: 100%;
+	margin: 0 auto;
+	border: none;
+}
+.index-menu .mui-table-view.mui-grid-view.mui-grid-9 li {
+	border: none;
+	padding: 5px 15px 10px;
+	height: 100%;
+}
+
+.index-menu .mui-table-view.mui-grid-view.mui-grid-9 li>a {
+	padding: 0;
+}
+
+.index-menu .mui-table-view.mui-grid-view.mui-grid-9 li div {
+}
+.index-menu .mui-table-view.mui-grid-view.mui-grid-9 li img{
+	height: 35%;
+	width: 35%;
+	margin-top: 5px; 
+}
+
+/* 商品列表 */
+.index-list {
+	padding-bottom: 44px;
+}
+.index-productList {
+	width: 100%;
+	background: #fff;
+}
+
+.index-productList .mui-card {
+	margin-top: 0;
+	box-shadow: none;
+}
+
+.index-productList img {
+	display: block;
+	margin: 0 auto;
+}
+
+.index-productList .mui-card-footer.index-tra:before{
+	background-color: transparent;
+}
+
+.index-productList .mui-card-footer:before {
+	background-color: #EBEBEB;
+}
+
+.index-productList .mui-card-footer.index-tra {
+	padding: 0 5px;
+}
+
+.index-tra span {
+	font-size: 16px;
+	color: #000;
+}
+
+.index-tra span:last-child {
+	color: #F14E41;
+}
+
+/* 底部 */
+.mui-bar-tab .mui-tab-item.mui-active {
+	background: #7B583D;
+	color: #fff;
+}
+
+/*////////////////////////////////////////我的会员//////////////////////////////////////// */
+.vip-my h2 {
+	height: 100%;
+	line-height: 60px;
+	color: #fff;
+}
+
+/* 个人信息 */
+.vip-info .gall2 img {
+	display: inline-block;
+	width: 80px !important;
+	height: 80px;
+	max-width: none;
+	border-radius: 50%;
+	margin-left: 15px;
+}
+
+.vip-info .gall2 p:first-child {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.vip-info .gall2 p:last-child {
+	color: #f6af4a;
+}
+
+.vip-info .gall2 p em {
+	font-style: normal;
+}
+
+.vip-info .gall2 p span {
+	color: #f6af4a;
+	margin: 0 10px;
+}
+
+.gall2-list {
+	margin-top: 10px;
+}
+
+.vip-info .mui-table-view:after {
+	height: 0;
+}
+
+.vip-info .mui-table-view-cell {
+	box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+.vip-info .gall2 .mui-slider {
+	box-shadow: 1px 1px 5px 1px #ccc;
+}
+
+.vip-order {
+	position: relative;
+	top: -10px;
+}
+
+.vip-order .mui-card {
+	margin: 0;
+}
+
+.vip-order .myorder {
+	margin-left: 25px;
+}
+
+.vip-order .mui-navigate-right:after, .mui-push-right:after {
+	right: 50px;	
+	content: '查看全部 \e583';
+}
+
+.vip-more .mui-card {
+	margin: 0 0 10px 0;
+	box-shadow: none;
+}
+
+.vip-more .mui-card span {
+	margin-left: 40px;
+}
+
+.vip-more .mui-navigate-right:after, .mui-push-right:after {
+	right: 50px;	
+	content: '查看全部 \e583';
+}
